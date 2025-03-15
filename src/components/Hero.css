@@ -1,0 +1,70 @@
+/* Hero */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    height: 400px;
+    overflow: hidden;
+    background: linear-gradient(to right, white 50%, #ffffff 50%);
+  }
+  
+  .hero-text {
+    width: 50%;
+    padding: 40px;
+  }
+  
+  .hero-text h1 {
+    font-size: 36px;
+    color: #8a236a;
+    margin-bottom: 30px;
+    line-height: 1.2;
+  }
+  
+  .welcome {
+    color: #8a236a;
+    margin-bottom: 15px;
+  }
+  
+  .south {
+    color: #8a236a;
+    font-weight: bold;
+    font-size: 40px;
+  }
+  
+  .dropdown {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  
+  .dropdown select {
+    padding: 12px;
+    font-size: 16px;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .exp {
+    background: #8a236a;
+    width: 100px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .exp h5 {
+    color: white;
+    margin: 0;
+    font-size: 14px;
+  }
+  
+  .hero-image {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url('/public/bike.png');
+  }
